@@ -1,0 +1,20 @@
+
+This is the README file for Data-Oplist, which provides a method to parse and
+validate simple name/value option pairs.
+
+For its documentation, consult its POD.
+
+  $ perldoc Data::OptList
+
+Example:
+
+  use Data::OptList;
+
+  my $options = Data::Optlist::mkopt([
+    qw(key1 key2 key3 key4),
+    key5 => { ... },
+    key6 => [ ... ],
+    key7 => sub { ... },
+    key8 => { ... },
+    key8 => [ ... ],
+  ]);

@@ -11,4 +11,4 @@ requires:
   List::Util: 0
   Params::Util: 0.14
   Sub::Install: 0.92
-version: 0.100
+version: 0.101
