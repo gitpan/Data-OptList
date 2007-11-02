@@ -13,13 +13,11 @@ Data::OptList - parse and validate simple name/value option pairs
 
 =head1 VERSION
 
-version 0.102
-
-  $Id: /my/cs/projects/Data-OptList/trunk/lib/Data/OptList.pm 31979 2007-07-05T02:17:36.805594Z rjbs  $
+version 0.103
 
 =cut
 
-our $VERSION = '0.102';
+our $VERSION = '0.103';
 
 =head1 SYNOPSIS
 
