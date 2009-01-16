@@ -13,11 +13,11 @@ Data::OptList - parse and validate simple name/value option pairs
 
 =head1 VERSION
 
-version 0.103
+version 0.104
 
 =cut
 
-our $VERSION = '0.103';
+our $VERSION = '0.104';
 
 =head1 SYNOPSIS
 
@@ -67,7 +67,9 @@ Just look at all those undefs!  Don't worry, we can get rid of those:
   ];
 
 Aaaauuugh!  We've saved a little typing, but now it requires thought to read,
-and thinking is even worse than typing.
+and thinking is even worse than typing... and it's got a bug!  It looked right,
+didn't it?  Well, the C<< xyz => { ... } >> gets consumed by the map, and we
+don't get the data we wanted.
 
 With Data::OptList, you can do this instead:
 
