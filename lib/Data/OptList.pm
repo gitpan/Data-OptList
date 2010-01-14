@@ -13,17 +13,17 @@ Data::OptList - parse and validate simple name/value option pairs
 
 =head1 VERSION
 
-version 0.104
+version 0.105
 
 =cut
 
-our $VERSION = '0.104';
+our $VERSION = '0.105';
 
 =head1 SYNOPSIS
 
   use Data::OptList;
 
-  my $options = Data::Optlist::mkopt([
+  my $options = Data::OptList::mkopt([
     qw(key1 key2 key3 key4),
     key5 => { ... },
     key6 => [ ... ],
