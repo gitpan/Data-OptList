@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Data::OptList;
 {
-  $Data::OptList::VERSION = '0.108';
+  $Data::OptList::VERSION = '0.109';
 }
 # ABSTRACT: parse and validate simple name/value option pairs
 
@@ -109,13 +109,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Data::OptList - parse and validate simple name/value option pairs
 
 =head1 VERSION
 
-version 0.108
+version 0.109
 
 =head1 SYNOPSIS
 
